@@ -1,0 +1,181 @@
+@media (max-width: 1300px) {
+    header .carousel-inner .container-part-1 {
+        position: relative;
+        z-index: 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 150px;
+        flex-direction: column;
+        width: 100%;
+    }
+    header .carousel-inner .container-part-part-1 {
+        display: flex;
+        align-self: flex-start;
+        margin-left: 15px;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+    }
+    header .carousel-inner .container-part-part-1 h1 {
+        margin: 20px 0px;
+        font-size: 28px;
+    }
+    header .carousel-inner .container-part-part-2 {
+        position: relative;
+        width: 65%;
+    }
+    header .carousel .next {
+        top: 95%;
+        right: 20px;
+        transform: translateY(-50%);
+    }
+    header .carousel .prev {
+        top: 95%;
+        right: 90px;
+        left: auto;
+        transform: translateY(-50%);
+    }
+    .ad {
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .ad .img-div{
+        width: 100%;
+    }
+    #latest {
+        background: rgba(173, 169, 150);
+        background: -webkit-linear-gradient(to right,rgba(234,234,234),rgba(219,219,219),rgba(242,242,242),rgba(173,169,150));
+        background: linear-gradient(to right, rgba(234, 234, 234), rgba(219, 219, 219), rgba(242, 242, 242), rgba(173, 169, 150));
+        padding: 10px;
+    }
+    #latest .products {
+        width: 100%;
+        background-color: #fff;
+        border: 1px solid var(--main-color);
+        border-radius: 15px;
+        padding: 15px;
+    }
+    #latest .products .row-of-imgs {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        gap: 10px;
+    }
+    #latest .products .row-of-imgs .imgs-in-row:last-child{
+        margin-bottom: 15px;
+    }
+    #latest .products .description {
+        width: 100%;
+    }
+    #latest .products .main-img {
+    max-width: 350px;
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    }
+    #latest .products .main-img {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        cursor: pointer;
+        transition-duration: 0.5s;
+    }
+
+}
+
+
+@media (min-width: 371px) and (max-width: 1300px) {}
+
+
+@media (min-width: 577px) and (max-width: 1300px) {
+    header .carousel-inner .container-part-1{
+        position: relative;
+        z-index: 3;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+        align-items: center;
+        width: 90%;
+
+    }
+    header .carousel-inner .container-part-part-1,
+    header .carousel-inner .container-part-part-2{
+        position: relative;
+        width: 50%;
+
+    }
+    header .carousel-inner .container-part-part-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+    header .carousel-inner .carousel-item.active .container-part-part-1{
+        animation-name: slide-right;
+        animation-duration: 1s;
+        animation-delay: 1s;
+        animation-fill-mode: both;
+    }
+    header .carousel-inner .container-part-part-1 h4{
+        color: var(--main-color);
+    }
+    header .carousel-inner .container-part-part-1 h1{
+        margin: 20px 0px;
+        font-size: 38px;
+    }
+    #latest .products .row-of-imgs {
+        width: 20%;
+        height: 100%;
+        display: block;
+    }
+    #latest .products .row-of-imgs .imgs-in-row:last-child{
+        margin-bottom: 0;
+    }
+    #latest .products .main-img {
+        max-width: 350px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        cursor: pointer;
+        transition-duration: 0.5s;
+    }
+    
+}
+
+@media (min-width: 993px) and (max-width: 1300px) {
+    .ad {
+        height: 350px;
+        display: flex;
+        flex-direction: row;
+    }
+    .ad .img-div{
+        width: 50%;
+    }
+        #latest .products .description {
+        width: 40%;
+    }
+    #latest .products .main-img {
+        max-width: 350px;
+        display: flex;
+        align-items: center;
+        margin-right: 40px;
+        cursor: pointer;
+        transition-duration: 0.5s;
+    }
+    #latest .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        max-width: 1000px;
+    }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {}
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */

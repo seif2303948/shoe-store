@@ -1,0 +1,30 @@
+@keyframes down{
+    0%{
+        transform: translateY(-120%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(-20%);
+        opacity: 1;
+    }
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(30deg) translateX(5%) scale(0.5);
+        opacity: 0;
+    }
+    100%{
+        transform: rotate(-30deg) translateX(5%) scale(1);
+        opacity: 1;
+    }
+}
+@keyframes slide-right{
+    0%{
+        transform: translateX(-150%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
